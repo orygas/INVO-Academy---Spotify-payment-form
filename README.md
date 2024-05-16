@@ -1,4 +1,6 @@
-# INVO Academy - Spotify user feedback modal
+# INVO Academy - Spotify payment form
+
+![Banner Image](https://i.imgur.com/CeUyk86.png)
 
 Projekt formularza płatności w serwisie Spotify.
 
@@ -10,13 +12,18 @@ Odwzorowanie designu z [pliku Figmy](https://www.figma.com/file/87rgRknXb1jpOvkW
 
 Demo aplikacji dostępne [tutaj](https://wonderful-phoenix-35e97a.netlify.app/).
 
-## TODO
-- [ ] Dodać walidację formularza
-- [ ] Wyświetlanie błędów walidacji
+## TODO  
+
+- [x] Zaimplementować formularz płatności  
+- [x] Dodać walidację formularza
+- [x] Wyświetlanie błędów walidacji
 
 ## Funkcjonalności
 
 - **RWD:** Projekt skaluje się odpowiednio na różnych urządzeniach, według wymiarów z Figmy.
+- **Obsługa formularza:** Formularz przyjmuje oraz zapisuje wpisane wartości.
+- **Walidacja formularza:** Każde pole jest walidowane odpowiednio do swojego typu, np. w polu z imieniem wpisanie cyfr ukaże błąd.
+- **Wyświetlanie błędów walidacji:** Każde pole odpowiada swój unikatowy błąd by ułatwić użytkownikowi interakcję z formularzem.
 
 ## Technologie
 
@@ -29,7 +36,3 @@ Demo aplikacji dostępne [tutaj](https://wonderful-phoenix-35e97a.netlify.app/).
 
 - Oskar Rygasiewicz
 - INVO Academy (starter code)
-
-
-
-

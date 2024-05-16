@@ -5,12 +5,13 @@
 @use "styles/root.scss";
 @use "styles/fonts.scss";
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: var(--on-background-color);
   background-color: #121212;
   display: flex;
@@ -34,7 +35,7 @@ img {
 
 a {
   color: var(--on-background-color);
-  transition: .2s;
+  transition: 0.2s;
 
   &:hover {
     color: var(--primary-color);
